@@ -21,7 +21,7 @@ export default function Banner() {
           />
 
           <Box align='center' mt={15} boxShadow='xl'>
-            If this sounds like a great fit for you, please visit our Member's
+            If this sounds like a great fit for you, please visit our Membership
             Page to get started with creating a decentralized account.
             <Box>
               <Button
@@ -29,7 +29,7 @@ export default function Banner() {
                 colorScheme='blue'
                 variant='outline'
               >
-                Member's Page
+                Membership Page
               </Button>
             </Box>
           </Box>
