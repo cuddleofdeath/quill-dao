@@ -27,15 +27,18 @@ export default function Home({ allPostsData }) {
           support system of likeminded individuals who are passionate about
           writing literary works.
         </p>
+        <br></br>
+
         <p>
           This site is currently under construction. It will likely see a lot of
           updates over the next few hours! (Last edited on April 9th at 9:04pm
           CDT)
         </p>
+        <br></br>
 
         <Banner />
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -48,7 +51,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
     </Layout>
   );
 }
