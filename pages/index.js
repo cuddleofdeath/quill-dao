@@ -28,8 +28,9 @@ export default function Home({ allPostsData }) {
           writing literary works.
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href='https://nextjs.org/learn'>our Next.js tutorial</a>.)
+          This site is currently under construction. It will likely see a lot of
+          updates over the next few hours! (Last edited on April 9th at 9:04pm
+          CDT)
         </p>
 
         <Banner />
